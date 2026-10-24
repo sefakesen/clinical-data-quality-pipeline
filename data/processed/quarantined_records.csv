@@ -1,0 +1,67 @@
+patient_id,age,gender,cancer_type,stage,biomarker_status,white_blood_cell_k_ul,hemoglobin_g_dl,creatinine_mg_dl,systolic_bp,consent_signed,enrollment_date,rejection_reasons
+PT-00031,61,Male,Melanoma,Stage I,Positive,7.82,12.71,0.97,132,False,2026-06-01,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00067,57,Female,Non-Small Cell Lung Cancer,Stage II,Positive,5.58,13.92,0.77,143,False,2026-02-25,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00116,-31,Female,Colorectal Cancer,Stage III,Positive,7.62,15.03,0.59,146,True,2026-10-23,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -31 years breaches physiological boundary [18, 95]."
+PT-00136,48,Female,Colorectal Cancer,Stage III,Negative,5.2,16.6,1.13,148,True,2026-04-09,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00136'.
+PT-00140,54,Female,Colorectal Cancer,Stage III,Pending,7.79,11.8,1.12,125,True,2026-09-18,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00140'.
+PT-00136,55,Female,Breast Cancer,Stage IV,Positive,7.23,14.36,0.8,115,True,2026-08-10,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00136'.
+INVALID_147,63,Female,Colorectal Cancer,Stage I,Negative,7.66,15.37,1.29,144,True,2026-09-27,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_147' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00140,49,Male,Melanoma,Stage III,Negative,7.54,12.59,0.79,105,True,2026-04-09,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00140'.
+PT-00175,145,Male,Melanoma,Stage III,Negative,5.76,11.59,0.76,127,True,2026-05-07,"DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00175'. | PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+PT-00175,70,Male,Non-Small Cell Lung Cancer,Stage IV,Negative,5.35,14.01,0.77,147,True,2026-07-28,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00175'.
+PT-00188,51,Male,Colorectal Cancer,Stage I,Positive,5.36,14.93,0.97,118,False,2026-01-20,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+INVALID_229,58,Male,Pancreatic Cancer,Stage III,Negative,5.23,11.5,1.27,114,True,2026-06-03,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_229' does not conform to standardized pattern 'PT-XXXXX'.
+INVALID_237,69,Female,Colorectal Cancer,Stage I,Negative,5.43,13.44,1.04,112,True,2026-02-06,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_237' does not conform to standardized pattern 'PT-XXXXX'.
+INVALID_264,58,Female,Pancreatic Cancer,Stage I,Positive,8.15,13.69,1.03,129,True,2026-04-27,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_264' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00290,145,Non-Binary,Colorectal Cancer,Stage III,Negative,6.25,14.74,1.19,128,True,2026-01-03,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+PT-00324,96,Male,Breast Cancer,Stage II,Pending,7.74,12.6,0.83,146,True,2026-06-25,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 96 years breaches physiological boundary [18, 95]."
+PT-00333,73,Male,Colorectal Cancer,Stage II,Positive,6.99,10.41,0.79,148,False,2026-06-22,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00339,65,Male,Breast Cancer,Stage III,Negative,6.35,15.19,0.62,130,False,2026-09-11,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00357,145,Female,Non-Small Cell Lung Cancer,Stage IV,Negative,7.05,11.39,1.09,129,True,2026-04-26,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+PT-00358,40,Female,Non-Small Cell Lung Cancer,Stage III,Negative,6.64,12.6,0.99,149,True,2026-03-01,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00358'.
+PT-00360,-48,Male,Melanoma,Stage III,Negative,6.63,12.53,1.16,128,True,2026-02-13,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -48 years breaches physiological boundary [18, 95]."
+PT-00358,62,Female,Pancreatic Cancer,Stage IV,Positive,5.14,13.97,0.91,124,True,2026-08-17,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00358'.
+PT-00373,56,Male,Colorectal Cancer,Stage III,Positive,8.66,15.07,0.54,148,False,2026-01-24,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00402,60,Female,Breast Cancer,Stage III,Positive,7.2,12.49,1.07,143,False,2026-03-01,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00465,63,Male,Pancreatic Cancer,Stage I,Positive,8.6,14.53,1.29,127,False,2026-08-20,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00473,-45,Male,Non-Small Cell Lung Cancer,Stage II,Positive,7.05,11.36,1.16,117,True,2026-09-10,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -45 years breaches physiological boundary [18, 95]."
+INVALID_481,74,Non-Binary,Colorectal Cancer,Stage II,Positive,4.86,15.13,1.1,109,True,2026-09-22,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_481' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00487,-64,Male,Breast Cancer,Stage II,Negative,5.36,13.76,0.88,131,True,2026-06-15,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -64 years breaches physiological boundary [18, 95]."
+PT-00491,-47,Male,Non-Small Cell Lung Cancer,Stage III,Negative,5.7,13.69,0.76,138,True,2026-06-22,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -47 years breaches physiological boundary [18, 95]."
+PT-00500,67,Male,Breast Cancer,Stage II,Pending,6.7,13.35,1.09,133,False,2026-03-13,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00507,63,Male,Colorectal Cancer,Stage II,Pending,5.53,14.69,0.72,121,True,2026-04-24,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00507'.
+PT-00507,62,Male,Non-Small Cell Lung Cancer,Stage I,Positive,7.9,13.72,1.19,145,True,2026-07-04,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00507'.
+PT-00520,31,Female,Colorectal Cancer,Stage I,Positive,6.11,14.14,1.18,120,True,2026-05-24,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00520'.
+PT-00507,61,Female,Melanoma,Stage IV,Positive,8.03,14.12,0.99,155,True,2026-02-19,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00507'.
+PT-00520,48,Female,Colorectal Cancer,Stage II,Negative,6.53,11.55,0.92,142,True,2026-01-12,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00520'.
+PT-00580,105,Female,Melanoma,Stage IV,Pending,3.45,16.56,0.86,132,True,2026-08-13,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 105 years breaches physiological boundary [18, 95]."
+PT-00589,145,Female,Breast Cancer,Stage II,Positive,6.36,14.82,0.88,133,True,2026-05-27,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+PT-00619,145,Male,Colorectal Cancer,Stage I,Pending,8.57,13.65,1.01,114,True,2026-02-10,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+INVALID_631,38,Female,Breast Cancer,Stage III,Inconclusive,4.97,13.98,1.21,133,True,2026-04-11,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_631' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00682,27,Non-Binary,Breast Cancer,Stage I,Positive,8.43,14.0,0.87,160,False,2026-09-18,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00700,81,Female,Non-Small Cell Lung Cancer,Stage II,Negative,8.67,13.72,0.88,122,True,2026-06-23,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00700'.
+PT-00700,61,Female,Colorectal Cancer,Stage III,Negative,8.44,16.15,0.68,127,True,2026-10-07,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00700'.
+PT-00717,83,Male,Non-Small Cell Lung Cancer,Stage II,Negative,9.6,16.87,0.65,129,False,2026-02-12,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00741,70,Female,Breast Cancer,Stage I,Negative,9.81,12.33,0.74,125,True,2026-06-12,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00741'.
+PT-00741,50,Male,Pancreatic Cancer,Stage II,Negative,7.79,15.8,0.82,116,True,2026-06-13,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00741'.
+PT-00756,63,Male,Colorectal Cancer,Stage I,Negative,3.9,11.83,0.46,126,True,2026-04-03,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00756'.
+PT-00756,72,Female,Non-Small Cell Lung Cancer,Stage III,Positive,5.08,14.58,1.18,135,True,2026-04-02,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00756'.
+PT-00768,53,Female,Non-Small Cell Lung Cancer,Stage II,Positive,9.43,14.41,0.71,123,True,2026-07-20,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00768'.
+PT-00768,64,Male,Non-Small Cell Lung Cancer,Stage IV,Negative,3.25,13.54,0.95,141,True,2026-07-12,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00768'.
+PT-00787,145,Female,Non-Small Cell Lung Cancer,Stage I,Negative,9.95,15.22,1.09,128,True,2026-06-26,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value 145 years breaches physiological boundary [18, 95]."
+PT-00808,69,Female,Non-Small Cell Lung Cancer,Stage II,Positive,8.13,13.45,0.92,116,False,2026-10-12,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00825,50,Male,Colorectal Cancer,Stage II,Positive,6.95,15.33,0.97,132,True,2026-06-28,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00825'.
+PT-00825,39,Male,Melanoma,Stage II,Positive,6.91,13.03,0.71,125,True,2026-07-17,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00825'.
+PT-00862,38,Female,Breast Cancer,Stage IV,Positive,6.07,14.97,0.88,120,True,2026-02-08,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00862'.
+PT-00867,-66,Female,Non-Small Cell Lung Cancer,Stage III,Negative,5.12,15.01,0.96,135,True,2026-03-16,"PHYSIOLOGICAL_LIMIT_VIOLATION: Value -66 years breaches physiological boundary [18, 95]."
+PT-00862,66,Male,Breast Cancer,Stage II,Positive,7.61,13.28,1.05,138,True,2026-05-18,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00862'.
+PT-00873,61,Female,Breast Cancer,Stage III,Negative,5.72,14.24,1.18,118,True,2026-03-01,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00873'.
+INVALID_881,68,Female,Breast Cancer,Stage III,Positive,6.99,13.18,1.04,142,False,2026-01-24,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_881' does not conform to standardized pattern 'PT-XXXXX'. | UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+PT-00873,49,Female,Colorectal Cancer,Stage I,Positive,7.09,12.11,0.37,131,True,2026-09-04,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00873'.
+PT-00904,47,Female,Melanoma,Stage II,Positive,6.45,14.35,1.0,113,False,2026-03-11,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+INVALID_917,72,Male,Pancreatic Cancer,Stage II,Negative,9.04,15.27,0.82,110,True,2026-01-03,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_917' does not conform to standardized pattern 'PT-XXXXX'.
+INVALID_934,65,Female,Pancreatic Cancer,Stage III,Negative,4.26,14.57,0.69,141,True,2026-10-08,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_934' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00940,55,Male,Non-Small Cell Lung Cancer,Stage III,Positive,8.12,15.84,0.95,120,False,2026-08-28,UNCONSENTED_TRIAL_RECORD: Patient record lacks verified informed consent signature (Regulatory GCP violation).
+INVALID_970,26,Male,Pancreatic Cancer,Stage II,Positive,11.79,14.65,0.95,146,True,2026-04-01,INVALID_IDENTIFIER_FORMAT: Patient ID 'INVALID_970' does not conform to standardized pattern 'PT-XXXXX'.
+PT-00982,69,Non-Binary,Pancreatic Cancer,Stage III,Negative,6.31,11.95,0.98,114,True,2026-07-06,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00982'.
+PT-00982,41,Male,Colorectal Cancer,Stage III,Positive,6.85,15.5,0.91,136,True,2026-04-07,DUPLICATE_PATIENT_ID: Duplicate patient identifier collision detected for 'PT-00982'.
